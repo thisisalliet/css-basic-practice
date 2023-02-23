@@ -1,5 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    color: red;
+p {
+    color: olive;
+    font-size: 26px;
+}
+
+header {
+    background-color: orange;
+}
+
+footer {
+    background-color: lightcoral;
+}
+
+a {
+    color: darkblue;
+    background-color: peachpuff;
+    text-decoration: none;
 }
