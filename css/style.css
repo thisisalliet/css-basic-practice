@@ -7,6 +7,11 @@ header {
     background-color: orange;
 }
 
+header p {
+    background-color: snow;
+    border-bottom: 1px solid gray;
+}
+
 footer {
     background-color: lightcoral;
 }
@@ -17,8 +22,22 @@ a {
     text-decoration: none;
 }
 
+ol li {
+    letter-spacing: 3px;
+    color: tomato;
+}
+
+ul li {
+    list-style: none;
+}
+
 #education {
    border: 3px solid red; 
+}
+
+#education h3 {
+    font-family: Arial, sans-serif;
+    font-size: 32px;
 }
 
 #skills-list {
