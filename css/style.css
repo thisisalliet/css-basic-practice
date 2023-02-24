@@ -1,3 +1,13 @@
+html {
+    font-size: 16px;
+}
+
+/* type selectors */
+h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+}
+
 p {
     color: olive;
     font-size: 26px;
@@ -5,11 +15,22 @@ p {
 
 header {
     background-color: orange;
+    width: 80%;
+    margin-left: 10%;
 }
 
 header p {
     background-color: snow;
     border-bottom: 1px solid gray;
+}
+
+#header-box {
+    width: 50%;
+    background-color: tomato;
+}
+
+img {
+    width: 100%;
 }
 
 footer {
