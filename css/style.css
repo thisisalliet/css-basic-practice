@@ -16,15 +16,27 @@ footer {
     background-color: lightcoral;
 }
 
-a {
+a:link {
     color: darkblue;
     background-color: peachpuff;
     text-decoration: none;
 }
 
+a:visited {
+    color:seagreen;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ol li {
     letter-spacing: 3px;
     color: tomato;
+}
+
+ol li:first-child {
+    font-weight: bold;
 }
 
 ul li {
